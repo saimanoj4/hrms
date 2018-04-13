@@ -81,7 +81,7 @@
                             <goal>copy-resources</goal>
                         </goals>
                         <configuration>
-                            <outputDirectory>C:\Users\E004082\Downloads\apache-tomcat-8.5.29-windows-x64\webapps</outputDirectory>
+                            <outputDirectory>D:\apache-tomcat-8.5.29-windows-x64\webapps</outputDirectory>
                             <resources>
                                 <resource>
                                     <directory>${basedir}/Archive/HRMSDP.war</directory>

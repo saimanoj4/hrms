@@ -26,7 +26,7 @@ import org.hibernate.criterion.Restrictions;
  */
 public class DependentsInfoManager {
     Session s=null;
-     public boolean searchDependent(DependentsInfodto emp) {
+     public boolean searchDependent(DependentsInfodto emp){
          System.out.println("-------------...........----------------->");
         s = HibernateUtil.getSessionFactory().getCurrentSession();
          Transaction t=s.beginTransaction();

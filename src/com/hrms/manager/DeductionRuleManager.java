@@ -24,7 +24,7 @@ import org.hibernate.criterion.Restrictions;
  */
 public class DeductionRuleManager {
 
-    public DeductionForm deductionInsert(DeductionForm dform) {
+    public DeductionForm deductionInsert(DeductionForm dform)  {
         
         Session s=HibernateUtil.getSessionFactory().openSession();
         Transaction t=s.beginTransaction();

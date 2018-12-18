@@ -24,7 +24,7 @@ import org.hibernate.criterion.Restrictions;
  *
  * @author Swathi
  */
-public class DependentsInfoManager {
+public class DependentsInfoManager{
     Session s=null;
      public boolean searchDependent(DependentsInfodto emp){
          System.out.println("-------------...........----------------->");

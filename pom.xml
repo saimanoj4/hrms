@@ -11,7 +11,7 @@
 <packaging>war</packaging>
 
 
--<build>
+<build>
 
 <sourceDirectory>src</sourceDirectory>
 
@@ -20,17 +20,17 @@
 <directory>${basedir}/Archive/</directory>
 
 
--<plugins>
+<plugins>
 
 
--<plugin>
+<plugin>
 
 <artifactId>maven-compiler-plugin</artifactId>
 
 <version>3.1</version>
 
 
--<configuration>
+<configuration>
 
 <source>1.8</source>
 
@@ -41,7 +41,7 @@
 </plugin>
 
 
--<plugin>
+<plugin>
 
 <groupId>org.apache.maven.plugins</groupId>
 
@@ -50,10 +50,10 @@
 <version>3.0.2</version>
 
 
--<executions>
+<executions>
 
 
--<execution>
+<execution>
 
 <id>copy-webapp</id>
 
@@ -63,22 +63,22 @@
 <phase>validate</phase>
 
 
--<goals>
+<goals>
 
 <goal>copy-resources</goal>
 
 </goals>
 
 
--<configuration>
+<configuration>
 
 <outputDirectory>target/</outputDirectory>
 
 
--<resources>
+<resources>
 
 
--<resource>
+<resource>
 
 <directory>${basedir}/src/webapp</directory>
 
@@ -93,7 +93,7 @@
 </execution>
 
 
--<execution>
+<execution>
 
 <id>copy-resources</id>
 
@@ -103,22 +103,22 @@
 <phase>validate</phase>
 
 
--<goals>
+<goals>
 
 <goal>copy-resources</goal>
 
 </goals>
 
 
--<configuration>
+<configuration>
 
 <outputDirectory>target/WEB-INF/Hibernetconfig/</outputDirectory>
 
 
--<resources>
+<resources>
 
 
--<resource>
+<resource>
 
 <directory>${basedir}/src/resources/Hibernetconfig/</directory>
 
@@ -133,7 +133,7 @@
 </execution>
 
 
--<execution>
+<execution>
 
 <id>copy-classConfigResources</id>
 
@@ -155,10 +155,10 @@
 <outputDirectory>target/WEB-INF/classes</outputDirectory>
 
 
--<resources>
+<resources>
 
 
--<resource>
+<resource>
 
 <directory>${basedir}/src/resources/ClassConfigFiles/</directory>
 
@@ -186,14 +186,14 @@
 
 
 
--<plugin>
+<plugin>
 
 <artifactId>maven-war-plugin</artifactId>
 
 <version>2.4</version>
 
 
--<configuration>
+<configuration>
 
 <warSourceDirectory>target</warSourceDirectory>
 
@@ -214,7 +214,7 @@
 
 
 
--<plugin>
+<plugin>
 
 <groupId>org.apache.tomcat.maven</groupId>
 
@@ -225,7 +225,7 @@
 </plugin>
 
 
--<plugin>
+<plugin>
 
 <groupId>org.codehaus.mojo</groupId>
 
@@ -234,7 +234,7 @@
 <version>1.1</version>
 
 
--<configuration>
+<configuration>
 
 <url>http://localhost:8088/manager/html</url>
 
@@ -259,13 +259,13 @@
 <url>http://maven.apache.org</url>
 
 
--<dependencies>
+<dependencies>
 
 <!-- https://mvnrepository.com/artifact/antlr/antlr -->
 
 
 
--<dependency>
+<dependency>
 
 <groupId>antlr</groupId>
 
@@ -279,7 +279,7 @@
 
 
 
--<dependency>
+<dependency>
 
 <groupId>commons-fileupload</groupId>
 
@@ -293,7 +293,7 @@
 
 
 
--<dependency>
+<dependency>
 
 <groupId>commons-io</groupId>
 
@@ -307,7 +307,7 @@
 
 
 
--<dependency>
+<dependency>
 
 <groupId>org.apache.commons</groupId>
 
@@ -321,7 +321,7 @@
 
 
 
--<dependency>
+<dependency>
 
 <groupId>dom4j</groupId>
 
@@ -335,7 +335,7 @@
 
 
 
--<dependency>
+<dependency>
 
 <groupId>org.freemarker</groupId>
 
@@ -377,7 +377,7 @@
 
 
 
--<dependency>
+<dependency>
 
 <groupId>org.hibernate</groupId>
 
@@ -391,7 +391,7 @@
 
 
 
--<dependency>
+<dependency>
 
 <groupId>org.hibernate.javax.persistence</groupId>
 
@@ -405,7 +405,7 @@
 
 
 
--<dependency>
+<dependency>
 
 <groupId>com.itextpdf</groupId>
 
@@ -419,7 +419,7 @@
 
 
 
--<dependency>
+<dependency>
 
 <groupId>org.jboss</groupId>
 
@@ -433,7 +433,7 @@
 
 
 
--<dependency>
+<dependency>
 
 <groupId>javassist</groupId>
 
@@ -447,7 +447,7 @@
 
 
 
--<dependency>
+<dependency>
 
 <groupId>org.javassist</groupId>
 
@@ -461,7 +461,7 @@
 
 
 
--<dependency>
+<dependency>
 
 <groupId>javax.servlet</groupId>
 
@@ -477,7 +477,7 @@
 
 
 
--<dependency>
+<dependency>
 
 <groupId>org.jboss.logging</groupId>
 
@@ -491,7 +491,7 @@
 
 
 
--<dependency>
+<dependency>
 
 <groupId>org.jboss.logging</groupId>
 
@@ -507,7 +507,7 @@
 
 
 
--<dependency>
+<dependency>
 
 <groupId>org.jboss.spec.javax.transaction</groupId>
 
@@ -521,7 +521,7 @@
 
 
 
--<dependency>
+<dependency>
 
 <groupId>mysql</groupId>
 
@@ -535,7 +535,7 @@
 
 
 
--<dependency>
+<dependency>
 
 <groupId>ognl</groupId>
 
@@ -552,7 +552,7 @@
 
 
 
--<dependency>
+<dependency>
 
 <groupId>com.microsoft.sqlserver</groupId>
 
@@ -566,7 +566,7 @@
 
 
 
--<dependency>
+<dependency>
 
 <groupId>org.apache.struts</groupId>
 
@@ -580,7 +580,7 @@
 
 
 
--<dependency>
+<dependency>
 
 <groupId>org.apache.struts.xwork</groupId>
 
@@ -594,7 +594,7 @@
 
 
 
--<dependency>
+<dependency>
 
 <groupId>org.apache.tomcat</groupId>
 
@@ -608,7 +608,7 @@
 
 
 
--<dependency>
+<dependency>
 
 <groupId>org.apache.tomcat</groupId>
 

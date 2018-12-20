@@ -22,7 +22,7 @@ public class Employ  extends ActionSupport{
      private int id;
      private  static int c,d,e;
 
-    public int getId() {
+    public int getId(){
         return id;
     }
 

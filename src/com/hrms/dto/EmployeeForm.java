@@ -37,8 +37,8 @@ public class EmployeeForm {
      private List<EmployeeType> emp=new ArrayList();
 
     public List<EmployeeType> getEmp() {
-        return emp;
-    }
+
+        return emp;}
 
     public void setEmp(List<EmployeeType> emp) {
         this.emp = emp;
@@ -65,7 +65,8 @@ public class EmployeeForm {
     }
     
     public void setDescription(String description) {
-        this.description = description;
+        this.description = description;;;;
+
     }
    
 

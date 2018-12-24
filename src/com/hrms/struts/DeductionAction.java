@@ -18,6 +18,7 @@ import java.util.List;
 public class DeductionAction extends ActionSupport{
     private Deductions deduc;
     private DeductionManager dm=new DeductionManager();
+	/*Testing the project */
     private List<String> dedlist=new ArrayList<>();
     private static List<Deductions> listofdeducs=new ArrayList<>();
     private static int id;

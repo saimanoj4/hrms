@@ -16,6 +16,8 @@ import java.util.List;
  *
  * @author NSG
  */
+ 
+ /* Making chnages to schedule Poll SCM for every 5 minutes */
 public class DepartmentAction extends ActionSupport {
     private DepartmentManager dm;
     DepartmentManager dmr=new DepartmentManager();

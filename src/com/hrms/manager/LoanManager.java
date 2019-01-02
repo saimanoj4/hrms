@@ -83,6 +83,7 @@ public class LoanManager {
              la.setCashLoan(loan.getCashLoan());
              la.setTraLoan(loan.getTraLoan());
              
+			 
              la.setHouseholdThings(loan.getHouseholdThings());
               System.out.println("==================.............."+loan.getHouseholdThings());
              SimpleDateFormat sf=new SimpleDateFormat("dd-MM-yy");

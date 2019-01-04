@@ -55,8 +55,7 @@ public class DepartmentManager {
         }
         catch(Exception ex)
         {
-            System.out.println("Exception during display"+ex);
-              
+            System.out.println("Exception during display"+ex); 
         }
         finally
         {

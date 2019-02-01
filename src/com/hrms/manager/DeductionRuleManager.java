@@ -30,7 +30,7 @@ public class DeductionRuleManager {
         Transaction t=s.beginTransaction();
         DeductionRules dr=new DeductionRules();
         try{
-            System.out.println("-66666666666666666666666666666666666666666"+dform.getEmpGrade());
+            System.out.println("-66666666666666666666666////66666666666666"+dform.getEmpGrade());
            dr.setDeductionRuleId(dform.getDeductionRuleId());
            dr.setEmpGrade(dform.getEmpGrade());
            dr.setFlatDeductionAmount(dform.getFlatDeductionAmount());

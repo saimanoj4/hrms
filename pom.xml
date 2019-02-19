@@ -204,7 +204,7 @@
 <!-- <webResources> <resource> <directory>${basedir}/Archive/</directory> </resource> </webResources> -->
 
 
-<outputDirectory>C:/Program Files/Apache Software Foundation/Tomcat 8.5/webapps</outputDirectory>
+<outputDirectory>C:/Program Files/Apache Software Foundation/Tomcat 7.0/webapps</outputDirectory>
 
 </configuration>
 

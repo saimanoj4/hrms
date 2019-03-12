@@ -84,7 +84,7 @@ public class DeductionManager {
         Criteria c2 = s.createCriteria(LoanAllotment.class);
         try{
        List<LoanAllotment> la=c2.add(Restrictions.eq("employeeProfile.empId", deduc.getEmpId())).list();
-       System.out.println("--------------------jghh");
+       System.out.println("--------------------jghh----------");
        if(la!=null){
         for(Object o:la){
             LoanAllotment l=(LoanAllotment)o;

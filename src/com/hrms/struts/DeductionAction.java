@@ -22,7 +22,7 @@ public class DeductionAction extends ActionSupport{
     private List<String> dedlist=new ArrayList<>();
     private static List<Deductions> listofdeducs=new ArrayList<>();
     private static int id;
-    private String m="dfgdgdg";
+    private String m="ddddddddddddd";
     private static int a,b,c,d,e,f,g,h,z,i;
     
 
